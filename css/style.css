@@ -18,14 +18,19 @@ nav {
     justify-content: space-between;
 }
 
-nav h1{
+nav h1 {
     font-size: 22px;
 }
+
 .list {
     list-style: none;
     display: flex;
     gap: 0.5rem;
     margin-left: auto;
+}
+
+.list li:hover {
+    color: rgb(96, 146, 96);
 }
 
 .list li {
@@ -48,21 +53,19 @@ img {
 
 .first {
     height: 100%;
-    position: absolute;
     top: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 5rem ;
-    background-color: #00000012;
-}
+    margin-top: 5rem;
 
+}
 
 .first h1 {
     color: black;
     font-size: 57px;
-    font-weight: 700;
+    font-weight: 650;
     margin-bottom: 1rem;
 }
 
@@ -78,4 +81,88 @@ img {
     color: black;
     line-height: 1.6;
     font-size: 1rem;
+}
+
+.btns {
+    display: flex;
+    padding: 4rem;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btns button:first-child {
+    margin-left: 550px;
+}
+
+.btns button:hover {
+    background-color: white;
+}
+
+.btn1 {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: rgb(19 84 84);
+    border: 0.5px solid rgb(89 62 3);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.btn2 {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: rgb(42 145 146);
+    border: 0.5px solid rgb(89 62 3);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.btn3 {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: rgb(128 216 218);
+    border: 0.5px solid rgb(89 62 3);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.btn4 {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: rgb(199 199 199);
+    border: 0.5px solid rgb(89 62 3);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.seperation {
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.669);
+    position: relative;
+}
+
+footer {
+    padding: 2rem 0 33px 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.value a {
+    color: black;
+}
+
+.footer-item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 30px;
+}
+
+.footer-item .label {
+    font-weight: 700;
 }
